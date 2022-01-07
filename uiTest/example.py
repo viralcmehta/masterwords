@@ -1,4 +1,4 @@
-from pyforms.basewidget import BaseWidget
+from pyforms.gui.basewidget import BaseWidget
 from pyforms.controls   import ControlFile
 from pyforms.controls   import ControlText
 from pyforms.controls   import ControlSlider

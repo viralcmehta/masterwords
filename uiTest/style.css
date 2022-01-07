@@ -1,0 +1,33 @@
+QMainWindow{
+	background-color: rgb(38, 177, 73);
+}
+
+QLabel{
+	min-width: 10px;
+    max-width: 10px;
+    border: 1px solid #000;
+}
+
+QLineEdit{
+	min-width: 200px;
+	border: 1px solid #000;
+	height: 30px;
+	padding-left: 10px;
+}
+
+QPushButton{
+	background: #be4210;
+	color: #b61818;
+	padding: 10px 20px 10px 20px;
+
+    border-radius: 6px;
+}
+
+QPushButton:hover {
+  background: #3cb0fd;
+}
+
+/*Use the # and the name of the variable to access to a specific the Control*/
+#_firstnameField QLineEdit{
+	color:red;
+}
